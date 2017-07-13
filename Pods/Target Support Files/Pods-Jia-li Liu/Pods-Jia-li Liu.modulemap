@@ -1,0 +1,6 @@
+framework module Pods_Jia_li_Liu {
+  umbrella header "Pods-Jia-li Liu-umbrella.h"
+
+  export *
+  module * { export * }
+}

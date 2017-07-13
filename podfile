@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+use_frameworks!
+target "Jia-li Liu" do
+    pod 'AFNetworking'                  #网络请求
+    pod 'MBProgressHUD'                 #hud提示框
+    pod 'SDWebImage'                    #图片下载
+    pod 'YYWebImage'                    #图片处理
+    pod 'DZNEmptyDataSet'               #空列表提示
+    pod 'MJExtension'                   #数据解析
+    pod 'XHLaunchAd'                    #广告页
+    pod 'SDAutoLayout'                  #自动布局
+    pod 'PPNetworkHelper'               #AFN网络请求二次封装带缓存功能
+    pod 'MJRefresh'                     #上下拉刷新
+    pod 'FXBlurView'                    #高斯模糊
+end

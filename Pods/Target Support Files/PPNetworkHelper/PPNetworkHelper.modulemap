@@ -1,0 +1,6 @@
+framework module PPNetworkHelper {
+  umbrella header "PPNetworkHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

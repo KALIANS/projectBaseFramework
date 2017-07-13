@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  Jia-li Liu
+//
+//  Created by KLIANS on 2017/4/19.
+//  Copyright © 2017年 KLIANS. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#endif /* PrefixHeader_pch */
+
+#import <UIKit/UIKit.h>
+
+#import "AppConfig.h"                   //常用宏定义文件
+
+#import "JLMovieController.h"           //视频引导页
+
+#import "JLNewFetureController.h"       //静态引导页
+
+#import "JTNavigationController.h"      //自定义Nav
+
+#import "JLTabBarController.h"          //自定义TabBar
+
+#import "JLProtocol.h"                  //协议代理文件
+
+#import <SDAutoLayout/SDAutoLayout.h>   //第三方_代码约束
+
+#import <AFNetworking/AFNetworking.h>   //第三方_网络请求AFN
+
+#import "PPNetworkHelper.h"             //第三方_网络请求—基于AFN
+
+#import "JLProgressHUD.h"               //HUD二次封装
+
+#import <MJExtension/MJExtension.h>     //第三方_数据解析
+
+#import "UIImageView+WebCache.h"        //第三方_图片下载
+
+#import "JLRefreshPch.h"                //MJRefresh封装文件
+
+#import "JLHomeAPI.h"                   //网络请求接口、model基类
+
+#import "JLBaseViewController.h"        //基类控制器
+
+#import "FXBlurView.h"                  //高斯模糊
